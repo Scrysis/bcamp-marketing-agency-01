@@ -7,9 +7,10 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
-    
+/* Header element was set to display inline, with modifications to width and padding.  In addition,
+fixed position was added to facilitate user navigation, since the listed example didn't list one way or another
+about whether the navigation bar was fixed or fluid. */
+.header {    
     position: fixed; 
     display: inline;
     width: 100%;
@@ -18,7 +19,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Changed the display to inline, instead of inline-block. */
 .header h1 {
     display: inline;
     font-size: 48px;
@@ -27,7 +28,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Set the display to inline, and the float to inline-end vs the original float right. */
 .header nav{
     display: inline;
     padding-top: 15px;
@@ -37,15 +38,14 @@ body {
     font-size: 20px;
     
 }
-
+/* Added a float: right. */
 .header nav ul {
     list-style-type: none;
     float: right;
 }
 
 .header nav ul li {
-    display: inline-block;
-    float: inline-end;
+    display: inline-block;    
     margin-left: 25px;
 }
 
@@ -57,7 +57,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Background image size was modified to better fit after the other modifications. */
 .hero {
     height: 2000px;
     width: 100%;
@@ -82,7 +82,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* The following benefits class modifications belong to the modification of the aside element.   */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,18 +93,21 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* The following benefits class modifications belong to the modification an element inside the aside element. */
 
 .benefits section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* The following benefits class modifications belong to the modification an element inside the aside element. */
 
 .benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* The following benefits class modifications belong to the modification an element inside the aside element. */
 
 .benefits section img {
     display: block;
@@ -112,7 +115,10 @@ p {
     max-width: 150px;
 }
 
-
+/* A modification of the article elements inside of the content class.  Instead of multiple classes for each individual
+element in the section containing content for the user, the section was given the content class, and the following related
+sections consolidate modifications so that they can be applied to features in the content class area without having to 
+use unique classes for each new segment. */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -122,18 +128,17 @@ p {
     color: #ffffff;
 }
 
-
+/* A modification of img elements inside of articles inside of the content class.*/
 .content article img {
     max-height: 200px;
 }
 
-
+/* A modification of the h2 elements inside of the article elements in the content class. */
 .content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
+/* Nothing was changed for the footer class since it was just adopted as-is. */
 .footer {
     padding: 30px;
     clear: both;
