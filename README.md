@@ -22,14 +22,14 @@ https://github.com/Scrysis/bcamp-marketing-agency-01
 https://scrysis.github.io/bcamp-marketing-agency-01/
 
 
-![Image of base webpage.]([Screenshot 2023-11-24 205612.jpg](https://github.com/Scrysis/bcamp-marketing-agency-01/blob/f194b0a9a4fb66acbe5f7e63c9a394910d0682fd/Screenshot%202023-11-24%20205612.jpg))
+![Image of base webpage.](assets\screen01.jpg)
 
 Base image of web page.
 
-![Screenshot of commented edited style.css file.](Screenshot 2023-11-24 205712.jpg)
+![Screenshot of commented edited style.css file.](assets\screen02.jpg)
 
 Screenshot of edited and commented style.css file.
 
-![Screenshot of commented edited index.html file.](Screenshot 2023-11-24 205747.jpg)
+![Screenshot of commented edited index.html file.](assets\screen03.jpg)
 
 Screenshot of edited and commented index.html file.
